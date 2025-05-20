@@ -1,0 +1,4 @@
+label,number_of_files,split,image_path
+brain_glioma,2004,train,Brain_Cancer/brain_glioma/brain_glioma_2004.jpg
+brain_menin,2004,train,Brain_Cancer/brain_menin/brain_menin_2004.jpg
+brain_tumor,2048,val,Brain_Cancer/brain_tumor/brain_tumor_2048.jpg
