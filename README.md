@@ -6,7 +6,7 @@ This project is a deep learning-based medical image classification system design
 
 The project was developed through the following steps:
 
-1. **Data Collection & Preparation**: We collected publicly available medical image datasets (like chest X-rays and CT scans). Images were organized into labeled folders, and metadata was tracked in CSV files (e.g., `metadata.csv`) to record labels, splits (train/val/test), and file paths. We applied preprocessing techniques such as resizing, normalization, and data augmentation (random rotations, flips, and intensity changes) to improve model robustness.
+1. **Data Collection & Preparation**: We collected publicly available medical image datasets (like chest X-rays and CT scans). The images were sourced from Kaggle, specifically from the [Brain Cancer MRI Dataset](https://www.kaggle.com/datasets/orvile/brain-cancer-mri-dataset). Images were organized into labeled folders, and metadata was tracked in CSV files (e.g., `metadata.csv`) to record labels, splits (train/val/test), and file paths. We applied preprocessing techniques such as resizing, normalization, and data augmentation (random rotations, flips, and intensity changes) to improve model robustness.
 
 2. **Model Selection & Training**: We explored several deep learning architectures, focusing on convolutional neural networks (CNNs) because they work well for image analysis. Models were implemented using popular frameworks (like PyTorch or TensorFlow). We tuned hyperparameters (learning rate, batch size, optimizer) using validation performance. Training was accelerated using GPU (CUDA) to handle large datasets and deep models efficiently.
 
